@@ -130,8 +130,14 @@ angular
         dayViewStart: '@',
         dayViewEnd: '@',
         dayViewSplit: '@',
+        dayViewTemplateUrl: '@',
+        hourListTemplateUrl: '@',
         monthCellTemplateUrl: '@',
-        monthCellEventsTemplateUrl: '@'
+        monthCellEventsTemplateUrl: '@',
+        monthViewTemplateUrl: '@',
+        slideBoxTemplateUrl: '@',
+        weekViewTemplateUrl: '@',
+        yearviewTemplateUrl: '@'
       },
       controller: 'MwlCalendarCtrl as vm',
       bindToController: true

@@ -190,11 +190,19 @@ An optional expression that is evaluated when the drilldown (clicking on a date 
 ### cell-modifier
 An optional expression that is evaluated on each cell generated for the year and month views. `calendarCell` can be used in the expression and is an object containing the current cell data which you can modify (see the `calendarHelper` service source code or just console.log it to see what data is available). If you add the `cssClass` property it will be applied to the cell.
 
-### month-cell-template-url
-An interpolated string template url that can be used to override the default month cell template.
+## Custom Templates
 
-### month-cell-events-template-url
-An interpolated string template url that can be used to override the default month cell events.
+Parameters for overriding the default templated.
+Takes an interpolated string template url that can be used to override the default template.
+
+- day-view-template-url
+- hour-list-template-url
+- month-cell-template-url
+- month-cell-events-template-url
+- month-view-template-url
+- slide-box-template-url
+- week-view-template-url
+- yearview-template-url
 
 ## The mwl-date-modifier directive
 
